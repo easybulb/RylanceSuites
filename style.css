@@ -49,3 +49,14 @@ nav a {
     color: white;
     align-items: center;
 }
+
+.book-now-box {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin-top: -8px;
+}
+
+.book-now-link {
+    color: rgb(43, 5, 5);
+}
