@@ -42,7 +42,6 @@ nav a {
 }
 
 .logo {
-    font-size: 1.5rem;
     border: 2px white solid;
     padding: 5px;
     margin-top: 42px;
@@ -63,4 +62,31 @@ nav div a {
 
 .book-now-link {
     color: rgb(43, 5, 5);
+}
+
+h1, h2, h3 {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.second-book-now {
+    text-align: center;
+}
+
+.second-book-now-link {
+    background-color: aliceblue;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(43, 5, 5);
+}
+
+.welcome-text {
+    margin-top: 15%;
 }
