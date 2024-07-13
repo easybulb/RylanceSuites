@@ -45,9 +45,13 @@ nav a {
     font-size: 1.5rem;
     border: 2px white solid;
     padding: 5px;
-    margin-top: 50px;
+    margin-top: 42px;
     color: white;
     align-items: center;
+}
+
+nav div a {
+    font-weight: 200;
 }
 
 .book-now-box {
