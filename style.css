@@ -25,7 +25,15 @@ nav ul {
     list-style: none;
 }
 
-nav a {
+nav li a {
     text-decoration: none;
-    color: white
+    color: white;
+    text-transform: uppercase;
+}
+
+.welcome {
+    background-image: url(./images/Rylance\ Suites\ Header.png);
+    background-size:cover;
+    height: 768px;
+    width: 100%;
 }
