@@ -161,6 +161,11 @@ h2 {
     padding-right: 35px;
 }
 
+.section2-items h3 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
 #footer-section {
     background-color: #141313;
     padding: 20px 0;
@@ -208,7 +213,8 @@ h2 {
 }
 
 .offer-section-items h3 {
-    font-weight: 800;
+    font-weight: 400;
+    font-size: 2rem;
 }
 
 #offer-section img {
