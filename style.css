@@ -76,6 +76,11 @@ nav div a {
     padding: 10px;
 }
 
+.book-now-link:hover {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
 h1, h2, h3 {
     font-family: "Merriweather", serif;
     font-weight: 300;
@@ -98,6 +103,11 @@ h1 {
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(43, 5, 5);
+}
+
+.second-book-now-link:hover {
+    text-decoration: underline;
+    font-weight: 500;
 }
 
 .welcome-text {
