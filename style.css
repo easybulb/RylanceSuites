@@ -256,21 +256,21 @@ h2 {
 
 #book-now-page {
     margin: 0;
-    border: 20px;
-    background-color: #272525;
+    padding: 20px;
+    background-color: #121111;
     text-align: center;
 }
 
-#book-now-page h2{
+#book-now-page h2 {
     font-size: 2rem;
     margin-top: 70px;
 }
 
 .book-now-container {
     background-color: white;
-    width: 90%;
-    max-width: 800px;
-    margin-top: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
     padding: 20px;
     border: 2px solid grey;
     border-radius: 8px;
@@ -295,6 +295,7 @@ form {
     flex: 1;
     text-align: left;
     margin-right: 10px;
+    color: black;
 }
 
 .form-group input {
