@@ -51,6 +51,14 @@ nav a {
     align-items: center;
 }
 
+.logo a:hover {
+    color:#9d9896;
+}
+
+.top-mid-links:hover {
+    text-decoration: underline;
+}
+
 nav div a {
     font-weight: 200;
 }
@@ -64,6 +72,8 @@ nav div a {
 
 .book-now-link {
     color: rgb(43, 5, 5);
+    background-color: aliceblue;
+    padding: 10px;
 }
 
 h1, h2, h3 {
