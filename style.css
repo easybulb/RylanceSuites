@@ -139,3 +139,51 @@ h2 {
     padding-left: 25px;
     padding-right: 35px;
 }
+
+#footer-section {
+    background-color: #141313;
+    padding: 20px 0;
+    color: aliceblue;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer-links, .footer-address {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-address p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.footer-links {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+    font-size: 1em;
+    color: aliceblue;
+}
