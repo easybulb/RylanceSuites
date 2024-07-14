@@ -43,15 +43,20 @@ nav a {
     border: 0;
 }
 
-.logo {
+.logo a {
     border: 2px white solid;
     padding: 10px;
+    display: inline-block;
     margin-top: 40px;
     color: white;
     align-items: center;
 }
 
 .logo a:hover {
+    color:#9d9896;
+}
+
+.logo:hover {
     color:#9d9896;
 }
 
@@ -166,25 +171,6 @@ h2 {
     font-size: 2rem;
 }
 
-#footer-section {
-    background-color: #141313;
-    padding: 20px 0;
-    color: aliceblue;
-    text-align: left;
-    width: 100%;
-}
-
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin: 0 auto;
-    width: 100%;
-    padding: 20px;
-}
-
 #offer-section {
     background-color: black;
     color: aliceblue;
@@ -220,6 +206,25 @@ h2 {
 #offer-section img {
     width: 100%;
     margin-bottom: 1rem;
+}
+
+#footer-section {
+    background-color: #141313;
+    padding: 20px 0;
+    color: aliceblue;
+    text-align: left;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
 }
 
 .footer-links, .footer-address {

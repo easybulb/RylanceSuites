@@ -25,17 +25,56 @@
             </ul>
         </nav>
     </header>
-    <section id="book-now-page">
-        <div class="book-now-container">
-            <h2>Book a room</h2>
-            <form action="" method="push">
-
-            </form>
-        </div>
-    </section>
-    <section></section>
-    <section></section>
-    <footer></footer>
-    <fixed></fixed>
+        <section id="book-now-page">
+            <h2>Book a Room</h2>
+            <div class="book-now-container">
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label for="adults">Adults:</label>
+                        <input type="number" id="adults" name="adults" min="1" max="10" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="children">Children:</label>
+                        <input type="number" id="children" name="children" min="0" max="10">
+                    </div>
+                    <div class="form-group">
+                        <label for="checkin">Check-in Date:</label>
+                        <input type="date" id="checkin" name="checkin" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkout">Check-out Date:</label>
+                        <input type="date" id="checkout" name="checkout" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="promo">Promo Code:</label>
+                        <input type="text" id="promo" name="promo">
+                    </div>
+                    <div class="form-buttons">
+                        <button type="submit">Check Availability</button>
+                        <button type="reset">Clear</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer id="footer-section">
+            <div class="footer-container">
+                <div>
+                    <p class="footer-address">
+                        <strong>Our Address:</strong><br>
+                        10 Manchester Street
+                        Manchester
+                        M1 1NP
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <a href="./index.html">Home</a>
+                    <a href="./gallery.html">Gallery</a>
+                    <a href="./food-and-drink.html">Food & Drinks</a>
+                    <a href="./manage-reservations.html">Manage Reservation</a>
+                    <a href="./book-now.html">Book Now</a>
+                </div>
+            </div>
+            <p class="footer-copyright">&copy; 2024 Rylance Suites. All rights reserved.</p>
+        </footer>
 </body>
 </html>
