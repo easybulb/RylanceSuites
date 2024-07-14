@@ -253,3 +253,23 @@ h2 {
     font-size: 1em;
     color: aliceblue;
 }
+
+#book-now-page {
+    margin: 0;
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#book-now-page h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 70px;
+}
+
+.book-now-container {
+    background-color: white;
+    width: 80%;
+    height: 50vh;
+    border: 2px grey solid;
+}
