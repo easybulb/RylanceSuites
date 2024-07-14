@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #1b1a1a;
-    color: #f1f1f1;
+    color: antiquewhite;
 }
 
 header {
@@ -31,7 +31,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: antiquewhite;
     text-transform: uppercase;
 }
 
@@ -41,16 +41,15 @@ nav a {
     background-color: #333;
     height: 90vh;
     width: 100%;
-    padding: 0;
-    border: 0;
+    color: antiquewhite;
 }
 
 .logo a {
-    border: 2px white solid;
+    border: 2px antiquewhite solid;
     padding: 10px;
     display: inline-block;
     margin-top: 40px;
-    color: white;
+    color: antiquewhite;
 }
 
 .logo a:hover {
@@ -97,7 +96,7 @@ h1 {
 
 .second-book-now-box {
     text-align: center;
-    margin-top: 10PX;
+    margin-top: 3rem;
 }
 
 .second-book-now-link {
@@ -113,8 +112,12 @@ h1 {
     font-weight: 500;
 }
 
-.welcome-text {
+.welcome-text h1 {
     margin-top: 15%;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: antiquewhite;
 }
 
 .home-section1 {
