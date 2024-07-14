@@ -96,7 +96,7 @@ h1 {
 
 .home-section1 {
     text-align: center;
-    padding: 2rem 11rem;
+    padding: 4rem 11rem 6rem 11rem;
     color:aliceblue;
     background-color: #1b1a1a;
     font-size: 16px;
@@ -105,18 +105,37 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
+    color: aliceblue;
 }
 
-.home-section2 {
-    background-color: rgb(255, 243, 240);
-    padding: 2rem 5rem;
+#home-section2 {
+    background-image: url(./images/background\ section2.png);
+    padding: 5rem 2rem;
+    margin: 0;
+    text-align: center;
 }
 
-.section2-container {  
+#home-section2 h2 {
+    margin-bottom: 40px;
+}
+
+.section2-items {  
     display: flex;
-    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+    color: aliceblue;
+    text-align: left;
+    gap: 5px
 }
 
-.section2-container img {
-    width: 70%;
+.section2-items img {
+    width: 50%;
+    padding: 20px;
+    text-align: left;
+}
+
+.section2-items h3, p {
+    margin-top: 0;
+    padding-left: 25px;
+    padding-right: 65px;
 }
