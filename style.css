@@ -175,6 +175,10 @@ h2 {
     display: flex;
 }
 
+#offer-section img {
+    width: 50%;
+}
+
 .footer-links, .footer-address {
     flex: 1;
     margin: 10px;
