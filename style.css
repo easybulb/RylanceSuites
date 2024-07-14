@@ -3,12 +3,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #1b1a1a;
+    color: #f1f1f1;
 }
 
 header {
     background: #333;
     color: antiquewhite;
     padding: 1rem 0;
+    position: relative;
 }
 
 nav {
@@ -49,7 +51,6 @@ nav a {
     display: inline-block;
     margin-top: 40px;
     color: white;
-    align-items: center;
 }
 
 .logo a:hover {
@@ -66,15 +67,14 @@ nav div a {
 }
 
 .book-now-box {
-    background-color: aliceblue;
+    background-color: antiquewhite;
     text-align: center;
     padding: 10px;
-    margin-top: -8px;
 }
 
 .book-now-link {
     color: rgb(43, 5, 5);
-    background-color: aliceblue;
+    background-color: antiquewhite;
     padding: 10px;
 }
 
@@ -87,6 +87,7 @@ h1, h2, h3 {
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-style: normal;
+    color: aliceblue;
 }
 
 h1 {
