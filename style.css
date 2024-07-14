@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #1b1a1a;
-    color: antiquewhite;
+    color: aliceblue;
 }
 
 header {
     background: #333;
-    color: antiquewhite;
+    color: aliceblue;
     padding: 1rem 0;
     position: relative;
 }
@@ -31,7 +31,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: antiquewhite;
+    color: aliceblue;
     text-transform: uppercase;
 }
 
@@ -41,15 +41,15 @@ nav a {
     background-color: #333;
     height: 90vh;
     width: 100%;
-    color: antiquewhite;
+    color: aliceblue;
 }
 
 .logo a {
-    border: 2px antiquewhite solid;
+    border: 2px aliceblue solid;
     padding: 10px;
     display: inline-block;
     margin-top: 40px;
-    color: antiquewhite;
+    color: aliceblue;
 }
 
 .logo a:hover {
@@ -66,14 +66,14 @@ nav div a {
 }
 
 .book-now-box {
-    background-color: antiquewhite;
+    background-color: aliceblue;
     text-align: center;
     padding: 10px;
 }
 
 .book-now-link {
     color: rgb(43, 5, 5);
-    background-color: antiquewhite;
+    background-color: aliceblue;
     padding: 10px;
 }
 
@@ -89,14 +89,9 @@ h1, h2, h3 {
     color: aliceblue;
 }
 
-h1 {
-    text-align: center;
-    font-size: 3.5rem;
-}
-
 .second-book-now-box {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .second-book-now-link {
@@ -117,12 +112,12 @@ h1 {
     font-size: 3.5rem;
     text-align: center;
     margin-bottom: 1rem;
-    color: antiquewhite;
+    color: aliceblue;
 }
 
 .home-section1 {
     text-align: center;
-    padding: 4rem 11rem 6rem 11rem;
+    padding: 4rem 2rem;
     color:aliceblue;
     background-color: #1b1a1a;
     font-size: 16px;
