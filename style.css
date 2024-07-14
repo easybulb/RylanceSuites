@@ -159,6 +159,22 @@ h2 {
     padding: 20px;
 }
 
+#offer-section {
+    background-color: black;
+    color: aliceblue;
+    padding: 5rem 2rem;
+    margin: 0;
+    text-align: left;
+}
+
+#offer-section h2 {
+    text-align: center;
+}
+
+.offer-section-container {
+    display: flex;
+}
+
 .footer-links, .footer-address {
     flex: 1;
     margin: 10px;
