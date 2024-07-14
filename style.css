@@ -54,10 +54,7 @@ nav a {
 
 .logo a:hover {
     color:#9d9896;
-}
-
-.logo:hover {
-    color:#9d9896;
+    border-color: #9d9896;
 }
 
 .top-mid-links:hover {
