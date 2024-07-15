@@ -369,8 +369,28 @@ form {
     padding: 1rem 1rem;
 }
 
+/* Gallery page styling starts header */
+
+#gallery-header {
+    background-color: rgb(21, 20, 20);
+}
+
+.gallery-page {
+    background-color: #1b1a1a;
+}
+
 .gallery-video {
     width: 100%;
     height: 768px;
     margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.gallery-h1 {
+    position: absolute;
+    z-index: 10;
+    top: 450px;
+    left: 27%;
+    font-size: 3rem;
 }
