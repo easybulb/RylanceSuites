@@ -333,3 +333,10 @@ form {
 .form-buttons button:hover {
     opacity: 0.8;
 }
+
+/* Food and drinks section begins here */
+
+#food-and-drinks {
+    background-image: url(./images/food\ and\ drinks\ with\ man.png);
+    background-size: cover;
+}
