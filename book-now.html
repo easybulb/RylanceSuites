@@ -11,108 +11,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header id="food-and-drinks">
+    <header>
         <nav>
             <div class="logo"><a href="./index.html">Rylance Suites</a></div>
             <ul>
                 <li><a href="./food-and-drink.html" class="top-mid-links">Food & Drinks</a></li>
                 <li><a href="./gallery.html" class="top-mid-links">Gallery</a></li>
                 <li><a href="./manage-reservations.html" class="top-mid-links">Manage Reservation</a></li>
-                <li><a href="./book-now.html" class="book-now-link">Book Now</a></li>
+                <li class="book-now-box"><a href="./book-now.html" class="book-now-link">Book Now</a></li>
             </ul>
         </nav>
-    <div class="welcome-text">
-        <h1>Your place in the city</h1>
-        <div class="second-book-now-box">
-            <a href="./book-now.html" class="second-book-now-link">Book Now</a>
-        </div>
-    </div>
     </header>
-    <section>
-        <div class="home-section1"> 
-        <h2>Welcome to Rylance Suites</h2>
-        <p>
-            Your luxury stay awaits. Experience the perfect blend of comfort and elegance in our exquisitely designed suites. At Rylance Suites, we provide top-notch amenities and personalized service to ensure your stay is nothing short of exceptional. 
-            <br>
-            <br>
-            Whether you're here for business or leisure, our prime location and stunning interiors offer a serene retreat in the heart of the city. Indulge in our gourmet dining options, unwind in our state-of-the-art fitness center, and explore the vibrant surroundings. Book your stay today and discover the Rylance difference.
-        </p>
-        </div>
-    </section>
-    <section id="home-section2">
-        <div class="section2-container">
-            <h2>Discover Our Features and Amenities</h2>
-            <div class="section2-items">
-                <img src="./images/feature4.png" alt="Luxurious Suites">
+        <section id="book-now-page">
+            <h2>Book a Room</h2>
+            <div class="book-now-container">
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label for="adults">Adults:</label>
+                        <input type="number" id="adults" name="adults" min="1" max="10" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="children">Children:</label>
+                        <input type="number" id="children" name="children" min="0" max="10">
+                    </div>
+                    <div class="form-group">
+                        <label for="checkin">Check-in Date:</label>
+                        <input type="date" id="checkin" name="checkin" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkout">Check-out Date:</label>
+                        <input type="date" id="checkout" name="checkout" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="promo">Promo Code:</label>
+                        <input type="text" id="promo" name="promo">
+                    </div>
+                    <div class="form-buttons">
+                        <button type="submit">Check Availability</button>
+                        <button type="reset">Clear</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer id="footer-section">
+            <div class="footer-container">
                 <div>
-                <h3>Luxurious Suites</h3>
-                <p>Each suite is thoughtfully designed with high-end furnishings, modern decor, and all the comforts of home.</p>
+                    <p class="footer-address">
+                        <strong>Our Address:</strong><br>
+                        10 Manchester Street
+                        Manchester
+                        M1 1NP
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <a href="./index.html">Home</a>
+                    <a href="./gallery.html">Gallery</a>
+                    <a href="./food-and-drink.html">Food & Drinks</a>
+                    <a href="./manage-reservations.html">Manage Reservation</a>
+                    <a href="./book-now.html">Book Now</a>
                 </div>
             </div>
-            <div class="section2-items">
-                <div>
-                    <h3>Gourmet Dining</h3>
-                    <p>Enjoy a variety of dining options, from our on-site restaurant serving gourmet cuisine to convenient in-room dining.</p>
-                </div>
-                <img src="./images/Goumet Dining.png" alt="Goumet Dining">
-            </div>
-            <div class="section2-items">
-                <img src="./images/body massage spa.png" alt="Body Massage Spa">
-                <div>
-                    <h3>Relaxation and Wellness</h3>
-                    <p>Unwind with our spa services, including massages and wellness treatments designed to rejuvenate your body and mind.</p></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="offer-section">
-        <h2>Our Offers</h2>
-        <div class="offer-section-container">
-            <div class="offer-section-items">
-                <img src="./images/family getaway.png" alt="Family Getaway">
-                <h3>Family Getaway Package</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi velit cupiditate perspiciatis, mollitia ab totam unde dolore. Quibusdam id suscipit at. Laudantium adipisci tempore vitae illo quae sed iusto ullam.</p>
-            </div>
-            <div class="offer-section-items">
-                <img src="./images/Romantic Package.png" alt="Romantic Package">
-                <h3>Romantic Package</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus necessitatibus, ad laboriosam quia molestias inventore consequatur fugiat ducimus corporis dolorem odio atque architecto deserunt magnam, officiis autem iste, dignissimos rem?</p>
-            </div>
-            <div class="offer-section-items">
-                <img src="./images/Stay and Dine.png" alt="Stay and Dine">
-                <h3>Stay and Dine</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium, fuga commodi perferendis, error beatae odit eum harum cupiditate maxime officiis voluptatem reiciendis. Possimus qui voluptas debitis culpa exercitationem? Eos.</p>
-            </div>
-            <div class="offer-section-items">
-                <img src="./images/graduation package.png" alt="Graduation Package">
-                <h3>Graduation Package</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui soluta nostrum consequuntur et? Officiis qui corporis, temporibus officia iusto nemo minus tempora harum iure esse amet sed, mollitia, dolores aliquid?</p>
-            </div>
-        </div>
-    </section>
-    <footer id="footer-section">
-        <div class="footer-container">
-            <div>
-                <p class="footer-address">
-                    <strong>Our Address:</strong><br>
-                    10 Manchester Street
-                    Manchester
-                    M1 1NP
-                    Tel: 0161234567
-                </p>
-            </div>
-            <div class="footer-links">
-                <a href="./index.html">Home</a>
-                <a href="./gallery.html">Gallery</a>
-                <a href="./food-and-drink.html">Food & Drinks</a>
-                <a href="./manage-reservations.html">Manage Reservation</a>
-                <a href="./book-now.html">Book Now</a>
-            </div>
-        </div>
-        <p class="footer-copyright">&copy; 2024 Rylance Suites. All rights reserved.</p>
-    </footer>
-    <fixed></fixed>
+            <p class="footer-copyright">&copy; 2024 Rylance Suites. All rights reserved.</p>
+        </footer>
 </body>
 </html>

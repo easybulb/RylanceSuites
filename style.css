@@ -339,4 +339,8 @@ form {
 #food-and-drinks {
     background-image: url(./images/food\ and\ drinks\ with\ man.png);
     background-size: cover;
+    background-color: #333;
+    height: 90vh;
+    width: 100%;
+    color: aliceblue;
 }
