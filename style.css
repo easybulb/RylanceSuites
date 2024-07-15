@@ -117,7 +117,7 @@ h1, h2, h3 {
 
 .home-section1 {
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 4rem 7rem;
     color:aliceblue;
     background-color: #1b1a1a;
     font-size: 16px;
@@ -209,7 +209,6 @@ h2 {
     padding: 20px 0;
     color: aliceblue;
     text-align: left;
-    width: 100%;
 }
 
 .footer-container {
@@ -219,7 +218,6 @@ h2 {
     justify-content: space-around;
     align-items: flex-start;
     margin: 0 auto;
-    width: 100%;
     padding: 20px;
 }
 
