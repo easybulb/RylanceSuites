@@ -344,3 +344,24 @@ form {
     width: 100%;
     color: aliceblue;
 }
+
+.food-section-2 {
+    display: flex;
+}
+
+.food-section-2 img {
+    width: 683px;
+    height: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.food-section-text {
+    text-align: center;
+    width: 100%;
+    padding: 1rem 1rem;
+    color:aliceblue;
+    background-color: #1b1a1a;
+    font-size: 16px;
+    font-weight: 200;
+}
