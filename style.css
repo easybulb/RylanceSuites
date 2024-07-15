@@ -347,6 +347,8 @@ form {
 
 .food-section-2 {
     display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 
 .food-section-2 img {
@@ -359,9 +361,10 @@ form {
 .food-section-text {
     text-align: center;
     width: 100%;
-    padding: 1rem 1rem;
     color:aliceblue;
     background-color: #1b1a1a;
     font-size: 16px;
     font-weight: 200;
+    margin-top: 100px;
+    padding: 1rem 1rem;
 }
