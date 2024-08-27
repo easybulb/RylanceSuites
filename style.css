@@ -35,8 +35,8 @@ nav {
 
 nav ul {
     display: flex;
-    gap: 3rem;
-    margin-top: 60px;
+    gap: 1.5rem;
+    margin-top: 55px;
     list-style: none;
 }
 
@@ -52,6 +52,7 @@ nav a {
     background-color: #333;
     height: 90vh;
     width: 100%;
+    max-width: 100%;
     color: aliceblue;
 }
 
@@ -69,11 +70,16 @@ nav a {
 }
 
 .top-mid-links:hover {
-    text-decoration: underline;
+    color: #9d9896;
 }
 
 nav div a {
     font-weight: 200;
+}
+
+.active {
+    border-bottom: 2px solid orange;
+    padding-bottom: 1px;
 }
 
 .book-now-box {
