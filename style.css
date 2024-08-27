@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -393,4 +402,8 @@ form {
     top: 450px;
     left: 27%;
     font-size: 3rem;
+}
+
+@media screen and (max-width : 768px) {
+    
 }
