@@ -8,11 +8,13 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #1b1a1a;
     color: aliceblue;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
