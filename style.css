@@ -95,8 +95,9 @@ nav div a {
 }
 
 .book-now-link:hover {
-    text-decoration: underline;
-    font-weight: 500;
+    background-color: #9d9896;
+    color: #fff;
+    font-weight: 400;
 }
 
 h1, h2, h3 {
