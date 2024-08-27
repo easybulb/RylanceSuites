@@ -83,7 +83,7 @@ nav div a {
 }
 
 .book-now-box {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     text-align: center;
     padding: 10px;
 }
@@ -92,6 +92,7 @@ nav div a {
     color: rgb(43, 5, 5);
     background-color: aliceblue;
     padding: 10px;
+    border-radius: 2px;
 }
 
 .book-now-link:hover {
@@ -101,9 +102,8 @@ nav div a {
 }
 
 h1, h2, h3 {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: normal;
+    font-family: "Catamaran", serif;
+    font-weight: 600;
     color: aliceblue;
 }
 
@@ -114,15 +114,17 @@ h1, h2, h3 {
 
 .second-book-now-link {
     background-color: aliceblue;
-    padding: 20px;
+    padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(43, 5, 5);
+    border-radius: 2px;
 }
 
 .second-book-now-link:hover {
-    text-decoration: underline;
-    font-weight: 500;
+    background-color: #9d9896;
+    color: aliceblue;
+    font-weight: 400;
 }
 
 .welcome-text h1 {
